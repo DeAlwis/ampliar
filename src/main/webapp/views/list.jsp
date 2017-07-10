@@ -5,14 +5,12 @@
 <%@include file='layout/site_header_wrapper.jsp'%>
 <!-- END Site Header -->
 
+<div class="spacer-100"></div>
+<div class="spacer-100"></div>
+
 
 
 <div class="main" role="main">
-
-
-    <div id="content" class="content full padding-b0">
-    </div>
-
 
 
     <div id="content" class="content full">
@@ -84,118 +82,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Filter by Model -->
-                            <div class="accordion-group">
-                                <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseThird">Model <i class="fa fa-angle-down"></i> </a> </div>
-                                <div id="collapseThird" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <ul class="filter-options-list list-group">
-                                            <li class="list-group-item"><span class="badge">38</span><a href="#">Alpina</a></li>
-                                            <li class="list-group-item"><span class="badge">6</span><a href="#">M3</a></li>
-                                            <li class="list-group-item"><span class="badge">54</span><a href="#">M5</a></li>
-                                            <li class="list-group-item"><span class="badge">9</span><a href="#">M6</a></li>
-                                            <li class="list-group-item"><span class="badge">4</span><a href="#">X1</a></li>
-                                            <li class="list-group-item"><span class="badge">23</span><a href="#">X3</a></li>
-                                            <li class="list-group-item"><span class="badge">41</span><a href="#">X5</a></li>
-                                            <li class="list-group-item"><span class="badge">38</span><a href="#">Z3</a></li>
-                                            <li class="list-group-item"><span class="badge">38</span><a href="#">Z4</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Filter by Body Type -->
-                            <div class="accordion-group">
-                                <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseFour">Body type <i class="fa fa-angle-down"></i> </a> </div>
-                                <div id="collapseFour" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <ul class="filter-options-list list-group">
-                                            <li class="list-group-item"><span class="badge">4</span><a href="#">Wagon</a></li>
-                                            <li class="list-group-item"><span class="badge">23</span><a href="#">Minivan</a></li>
-                                            <li class="list-group-item"><span class="badge">41</span><a href="#">SUV</a></li>
-                                            <li class="list-group-item"><span class="badge">6</span><a href="#">Coupe</a></li>
-                                            <li class="list-group-item"><span class="badge">54</span><a href="#">Convertible</a></li>
-                                            <li class="list-group-item"><span class="badge">9</span><a href="#">Crossover</a></li>
-                                            <li class="list-group-item"><span class="badge">38</span><a href="#">Sedan</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Filter by Mileage -->
-                            <div class="accordion-group">
-                                <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseFive">Mileage <i class="fa fa-angle-down"></i> </a> </div>
-                                <div id="collapseFive" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <div class="form-inline">
-                                            <div class="form-group">
-                                                <label>Min Mileage</label>
-                                                <select name="Min Mileage" class="form-control selectpicker">
-                                                    <option selected>Any</option>
-                                                    <option>10000</option>
-                                                    <option>20000</option>
-                                                    <option>30000</option>
-                                                    <option>40000</option>
-                                                    <option>50000</option>
-                                                    <option>60000</option>
-                                                    <option>70000</option>
-                                                    <option>80000</option>
-                                                    <option>90000</option>
-                                                    <option>100000</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group last-child">
-                                                <label>Max Mileage</label>
-                                                <select name="Max Mileage" class="form-control selectpicker">
-                                                    <option selected>Any</option>
-                                                    <option>10000</option>
-                                                    <option>20000</option>
-                                                    <option>30000</option>
-                                                    <option>40000</option>
-                                                    <option>50000</option>
-                                                    <option>60000</option>
-                                                    <option>70000</option>
-                                                    <option>80000</option>
-                                                    <option>90000</option>
-                                                    <option>100000</option>
-                                                </select>
-                                            </div>
-                                            <button type="submit" class="btn btn-default btn-sm pull-right">Filter</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Filter by Transmission -->
-                            <div class="accordion-group">
-                                <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseSix">Transmission <i class="fa fa-angle-down"></i> </a> </div>
-                                <div id="collapseSix" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <ul class="filter-options-list list-group">
-                                            <li class="list-group-item"><span class="badge">4</span><a href="#">5 speed manual</a></li>
-                                            <li class="list-group-item"><span class="badge">23</span><a href="#">5 speed automatic</a></li>
-                                            <li class="list-group-item"><span class="badge">41</span><a href="#">6 speed manual</a></li>
-                                            <li class="list-group-item"><span class="badge">6</span><a href="#">6 speed automatic</a></li>
-                                            <li class="list-group-item"><span class="badge">54</span><a href="#">7 speed manual</a></li>
-                                            <li class="list-group-item"><span class="badge">9</span><a href="#">7 speed automatic</a></li>
-                                            <li class="list-group-item"><span class="badge">38</span><a href="#">8 speed manual</a></li>
-                                            <li class="list-group-item"><span class="badge">38</span><a href="#">8 speed automatic</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Filter by Fuel Economy -->
-                            <div class="accordion-group">
-                                <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseSeven">Fuel economy <i class="fa fa-angle-down"></i> </a> </div>
-                                <div id="collapseSeven" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <ul class="filter-options-list list-group">
-                                            <li class="list-group-item"><span class="badge">4</span><a href="#">5L/100Km or less</a></li>
-                                            <li class="list-group-item"><span class="badge">23</span><a href="#">7L/100Km or less</a></li>
-                                            <li class="list-group-item"><span class="badge">41</span><a href="#">9L/100Km or less</a></li>
-                                            <li class="list-group-item"><span class="badge">6</span><a href="#">11L/100Km or less</a></li>
-                                            <li class="list-group-item"><span class="badge">54</span><a href="#">11L/100Km or less</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
                             <!-- Filter by Price -->
                             <div class="accordion-group">
                                 <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseEight">Price <i class="fa fa-angle-down"></i> </a> </div>
@@ -206,32 +92,32 @@
                                                 <label>Price Min</label>
                                                 <select name="Min Price" class="form-control selectpicker">
                                                     <option selected>Any</option>
-                                                    <option>$10000</option>
-                                                    <option>$20000</option>
-                                                    <option>$30000</option>
-                                                    <option>$40000</option>
-                                                    <option>$50000</option>
-                                                    <option>$60000</option>
-                                                    <option>$70000</option>
-                                                    <option>$80000</option>
-                                                    <option>$90000</option>
-                                                    <option>$100000</option>
+                                                    <option>LKR10000</option>
+                                                    <option>LKR20000</option>
+                                                    <option>LKR30000</option>
+                                                    <option>LKR40000</option>
+                                                    <option>LKR50000</option>
+                                                    <option>LKR60000</option>
+                                                    <option>LKR70000</option>
+                                                    <option>LKR80000</option>
+                                                    <option>LKR90000</option>
+                                                    <option>LKR100000</option>
                                                 </select>
                                             </div>
                                             <div class="form-group last-child">
                                                 <label>Price Max</label>
                                                 <select name="Max Price" class="form-control selectpicker">
                                                     <option selected>Any</option>
-                                                    <option>$10000</option>
-                                                    <option>$20000</option>
-                                                    <option>$30000</option>
-                                                    <option>$40000</option>
-                                                    <option>$50000</option>
-                                                    <option>$60000</option>
-                                                    <option>$70000</option>
-                                                    <option>$80000</option>
-                                                    <option>$90000</option>
-                                                    <option>$100000</option>
+                                                    <option>LKR10000</option>
+                                                    <option>LKR20000</option>
+                                                    <option>LKR30000</option>
+                                                    <option>LKR40000</option>
+                                                    <option>LKR50000</option>
+                                                    <option>LKR60000</option>
+                                                    <option>LKR70000</option>
+                                                    <option>LKR80000</option>
+                                                    <option>LKR90000</option>
+                                                    <option>LKR100000</option>
                                                 </select>
                                             </div>
                                             <button type="submit" class="btn btn-default btn-sm pull-right">Filter</button>
@@ -241,7 +127,7 @@
                             </div>
                             <!-- Filter by Location -->
                             <div class="accordion-group">
-                                <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseNine">Location <i class="fa fa-angle-down"></i> </a> </div>
+                                <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseNine">District <i class="fa fa-angle-down"></i> </a> </div>
                                 <div id="collapseNine" class="accordion-body collapse">
                                     <div class="accordion-inner">
                                         <ul class="filter-options-list list-group">
@@ -256,7 +142,7 @@
                             </div>
                             <!-- Filter by Color -->
                             <div class="accordion-group">
-                                <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseTen">Color <i class="fa fa-angle-down"></i> </a> </div>
+                                <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseTen">City/Town <i class="fa fa-angle-down"></i> </a> </div>
                                 <div id="collapseTen" class="accordion-body collapse">
                                     <div class="accordion-inner">
                                         <ul class="filter-options-list list-group color-options">

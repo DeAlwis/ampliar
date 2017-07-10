@@ -23,7 +23,7 @@
         <a href="vehicle-details.html" class="media-box"><img src="../resources/core/images/patterns/pt17.png" alt=""></a>
         <span class="label label-default vehicle-age">2014</span>
         <div class="result-item-view-buttons">
-            <a href="vehicle-details.html"><i class="fa fa-plus"></i> View details</a>
+            <a href="ad_details.jsp?ad_id=<%=resultSet.getString("id")%>"><i class="fa fa-plus"></i> View details</a>
         </div>
     </div>
     <div class="result-item-in">

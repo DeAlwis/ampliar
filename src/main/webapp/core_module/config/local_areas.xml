@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xmldata>
+    <city>
+        <districtname>Colombo</districtname>
+        <name>Colombo1</name>
+    </city>
+     <city>
+        <districtname>Colombo</districtname>
+        <name>Colombo2</name>
+    </city>
+     <city>
+        <districtname>Colombo</districtname>
+        <name>Colombo3</name>
+    </city>
+     <city>
+        <districtname>Colombo</districtname>
+        <name>Colombo4</name>
+    </city>
+     <city>
+        <districtname>Colombo</districtname>
+        <name>Colombo5</name>
+    </city>
+     <city>
+        <districtname>Colombo</districtname>
+        <name>Colombo6</name>
+    </city>
+    <city>
+        <districtname>Colombo</districtname>
+        <name>Colombo7</name>
+    </city>
+    <city>
+        <districtname>Colombo</districtname>
+        <name>Colombo7</name>
+    </city>
+    <city>
+        <districtname>Colombo</districtname>
+        <name>Colombo8</name>
+    </city>
+    <city>
+        <districtname>Colombo</districtname>
+        <name>Malabe</name>
+    </city>
+      <city>
+        <districtname>Colombo</districtname>
+        <name>Koswatta</name>
+    </city>
+      <city>
+        <districtname>Colombo</districtname>
+        <name>Kaduwela</name>
+    </city>
+    <city>        
+        <districtname>Polonnaruwa</districtname>
+        <name>Polonnaruwa</name>
+    </city>
+</xmldata>

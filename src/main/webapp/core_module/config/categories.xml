@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xmldata>
+    <category>
+        <name>Electonics</name>
+    </category>
+    <category>
+        <name>Cars and Vehicles</name>
+    </category>
+     <category>
+        <name>Property</name>
+    </category>
+     <category>
+        <name>Services</name>
+    </category>
+</xmldata>

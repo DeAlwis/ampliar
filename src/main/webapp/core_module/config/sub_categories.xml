@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xmldata>
+    <subcategory>
+        <category>Electonics</category>
+        <subcategoryname>Lap</subcategoryname>
+    </subcategory>
+    <subcategory>
+        <category>Electonics</category>
+        <subcategoryname>Phone</subcategoryname>
+    </subcategory>
+    <subcategory>
+        <category>Cars and Vehicles</category>
+        <subcategoryname>Car</subcategoryname>
+    </subcategory>
+    <subcategory>
+        <category>Cars and Vehicles</category>
+        <subcategoryname>Motorcyle</subcategoryname>
+    </subcategory>
+</xmldata>

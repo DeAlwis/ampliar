@@ -5,11 +5,11 @@
 <%@include file='layout/site_header_wrapper.jsp'%>
 <!-- END Site Header -->
 
+<div class="spacer-100"></div>
+<div class="spacer-100"></div>
+
 <!-- Start Body Content -->
 <div class="main" role="main">
-    <div id="content" class="content full padding-b0">
-    </div>
-
     <div id="content" class="content full padding-b0">
         <div class="container">
             <!-- Welcome Content and Services overview -->
@@ -34,24 +34,88 @@
                             <textarea type="text" name="description" id="description" class="form-control"></textarea>
                         </div>
                         <div class="col-md-12 col-sm-12 text-center">
-                            <label for="ad_name">Category</label>
-                            <input type="text" name="category" id="category" class="form-control">
+                            <label for="category">Category</label>
+                            <div id="category-div" ></div>
                         </div>
                         <div class="col-md-12 col-sm-12 text-center">
                             <label for="sub_category">Sub Category</label>
-                            <input type="text" name="sub_category" id="sub_category" class="form-control">
+                            <div id="sub-category-div" ></div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 text-center">
+                            <label for="district">District</label>
+                            <div id="district-div" ></div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 text-center">
+                            <label for="local_area">Town/City</label>
+                            <div id="local-area-div" ></div>
                         </div>
                         <div class="col-md-12 col-sm-12 text-center">
                             <button id="save_ad_button" class="btn btn-success" onclick="saveAdvertisement();" type="submit" value="Save">Save</<button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+                                    </div>
+                                    </form>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
 
-    <div id="content" class="content full padding-b0">
-    </div>
-    <!-- End Body Content -->
+                                    <script>
 
-    <%@include file='layout/footer.jsp'%>
+                                        function loadDistrictSelect() {
+                                            
+                                            $.ajax({
+                                                url: '/ampliar/services/district_select.jsp?'
+
+                                            }).done(function (data) {
+                                                $('#district-div').html(data);
+                                                
+                                                loadLocalAreasSelect();
+                                            });
+                                            
+                                        }
+                                        
+                                        function loadLocalAreasSelect() {
+                                            
+                                            var district_select = $('#district-select').val();
+                                            $.ajax({
+                                                url: '/ampliar/services/local_areas_select.jsp?district_select='+district_select
+
+                                            }).done(function (data) {
+                                                $('#local-area-div').html(data);
+                                            });
+                                            
+                                        }
+                                        
+                                        function loadCategorySelect() {
+                                            
+                                            $.ajax({
+                                                url: '/ampliar/services/categories_select.jsp?'
+
+                                            }).done(function (data) {
+                                                $('#category-div').html(data);
+                                                loadSubCategorySelect();
+                                            });
+                                            
+                                        }
+                                        
+                                        function loadSubCategorySelect() {
+                                            
+                                            var category_select = $('#category-select').val();
+                                            $.ajax({
+                                                url: '/ampliar/services/sub_categories_select.jsp?category_select='+category_select
+
+                                            }).done(function (data) {
+                                                $('#sub-category-div').html(data);
+                                            });
+                                            
+                                        }
+                                        
+                                        window.addEventListener("load", function () {
+                                            loadDistrictSelect();
+                                            loadCategorySelect();
+                                        });
+
+
+                                    </script>
+                                    <!-- End Body Content -->
+
+                                    <%@include file='layout/footer.jsp'%>
